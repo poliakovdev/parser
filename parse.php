@@ -12,7 +12,7 @@ while (!in_array($inputCommand, $availableCommands)) {
         exit('exit');
     }
 }
-
+echo 8;
 switch ($inputCommand) {
     case('parse'):
         $line = readline('Input target url:');
